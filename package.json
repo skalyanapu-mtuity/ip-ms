@@ -1,0 +1,30 @@
+{
+  "name": "userg-metadata-service",
+  "version": "0.0.1",
+  "author": "Team-Digigen <saikiran.kalyanapu@team.telstra.com>",
+  "private": true,
+  "scripts": {
+    "start": "node userg-metadata-service.js",
+    "debug": "node-debug userg-metadata-service.js --debug-brk",
+    "test": "mocha specs --reporter spec",
+    "docker": "node scripts/docker.js"
+  },
+  "engines": {
+    "node": ">=6.2.1"
+  },
+  "dependencies": {
+    "fwsp-config": "1.1.5",
+    "fwsp-jwt-auth": "0.1.0",
+    "fwsp-logger": "0.3.0",
+    "fwsp-server-response": "2.2.6",
+    "hydra-express": "1.4.29",
+    "mongoose": "^4.13.2",
+    "nconf": "^0.9.1"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "3.16.0",
+    "mocha": "3.2.0",
+    "superagent": "3.5.2"
+  }
+}
