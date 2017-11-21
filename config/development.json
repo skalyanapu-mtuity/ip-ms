@@ -1,6 +1,6 @@
 {
     "mongodb": {
-        "dbURI": "mongodb://localhost:27017/ipss"
+        "dbURI": "mongodb://ipss_poc_user:ipss_telstra@ds245805.mlab.com:45805/ipss_poc"
     }
    
 }
